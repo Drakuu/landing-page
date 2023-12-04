@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url('https://shorturl.at/nyGJ8');
+    background-size: cover;
+  }
+  
+  .styled-element {
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .styled-heading {
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  #time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    /* Add margin for better spacing */
+  }
+  
+  #day,
+  #date,
+  #time,
+  h1 {
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+  }
+  
+  .h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    /* Adjust font size as needed */
+  }
+  
+  #day,
+  #date {
+    font-size: 1.5rem;
+  }
+  
+  #day {
+    align-self: flex-end;
+    /* Move 'day' to the top right corner */
+  }
+  
+  #date {
+    align-self: flex-end;
+    /* Move 'date' to the top left corner */
+  }
+  
