@@ -16,9 +16,10 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  height: 100vh;
+  height: 100dvh;
   background-image: url('https://shorturl.at/nyGJ8');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   /* aspect-ratio: 1; */
 }
